@@ -1,5 +1,5 @@
 {
-  "name": "OctoKit.Objc”,
+  "name": "OctoPod”,
   "version": “0.7.8”,
   "summary": "GitHub API client for Objective-C.",
   "homepage": "https://github.com/octokit/octokit.objc",
