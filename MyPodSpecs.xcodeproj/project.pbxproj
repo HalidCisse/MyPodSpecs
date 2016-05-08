@@ -6,11 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		1FA65E1B1CDF8EA400293546 /* MyPodSpecs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FA65E1A1CDF8EA400293546 /* MyPodSpecs.h */; };
-		1FA65E1D1CDF8EA400293546 /* MyPodSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA65E1C1CDF8EA400293546 /* MyPodSpecs.m */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		1FA65E151CDF8EA400293546 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -18,7 +13,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				1FA65E1B1CDF8EA400293546 /* MyPodSpecs.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +20,7 @@
 
 /* Begin PBXFileReference section */
 		1FA65E171CDF8EA400293546 /* libMyPodSpecs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyPodSpecs.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FA65E1A1CDF8EA400293546 /* MyPodSpecs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPodSpecs.h; sourceTree = "<group>"; };
-		1FA65E1C1CDF8EA400293546 /* MyPodSpecs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPodSpecs.m; sourceTree = "<group>"; };
+		1FA65E241CDF8F5B00293546 /* OctoKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OctoKit.podspec; path = MyPodSpecs/OctoKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +37,7 @@
 		1FA65E0E1CDF8EA400293546 = {
 			isa = PBXGroup;
 			children = (
-				1FA65E191CDF8EA400293546 /* MyPodSpecs */,
+				1FA65E241CDF8F5B00293546 /* OctoKit.podspec */,
 				1FA65E181CDF8EA400293546 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,15 +48,6 @@
 				1FA65E171CDF8EA400293546 /* libMyPodSpecs.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1FA65E191CDF8EA400293546 /* MyPodSpecs */ = {
-			isa = PBXGroup;
-			children = (
-				1FA65E1A1CDF8EA400293546 /* MyPodSpecs.h */,
-				1FA65E1C1CDF8EA400293546 /* MyPodSpecs.m */,
-			);
-			path = MyPodSpecs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +106,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FA65E1D1CDF8EA400293546 /* MyPodSpecs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
