@@ -1,4 +1,4 @@
-Pod::Spec.new do |s|
+Pod::Spec.new do |spec|
 s.name     = 'OctoKit'
 s.authors  = ‘Halid Cisse’
 s.license  = ‘MIT’
