@@ -20,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		1FA65E171CDF8EA400293546 /* libMyPodSpecs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMyPodSpecs.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FA65E241CDF8F5B00293546 /* OctoKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = OctoKit.podspec; path = MyPodSpecs/OctoKit.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +36,6 @@
 		1FA65E0E1CDF8EA400293546 = {
 			isa = PBXGroup;
 			children = (
-				1FA65E241CDF8F5B00293546 /* OctoKit.podspec */,
 				1FA65E181CDF8EA400293546 /* Products */,
 			);
 			sourceTree = "<group>";
