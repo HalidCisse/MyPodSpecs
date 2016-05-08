@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
 spec.name     = 'OctoKit'
-spec.authors  = ‘Halid Cisse’
+spec.authors  = 'Halid Cisse'
 spec.license  = { :type => 'BSD' }
-spec.homepage = ‘https://github.com/HalidCisse/Podspecs’
-spec.summary  = ‘Oktokit’
+spec.homepage = 'https://github.com/HalidCisse/Podspecs'
+spec.summary  = 'Oktokit'
 spec.platform = :ios
 spec.version  = '0.7.8'
 spec.source   = { :git => "https://github.com/octokit/octokit.objc.git", :tag => spec.version.to_s }
