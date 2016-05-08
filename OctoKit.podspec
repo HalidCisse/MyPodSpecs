@@ -5,7 +5,8 @@ s.license =‘MIT’
 s.homepage=‘https://github.com/HalidCisse/Podspecs’
 s.summary ‘Oktokit specs’
 s.version       = '0.7.6'
-s.source        = { :git => 'https://github.com/octokit/octokit.objc.git', :commit => '1287f62’}
+s.source       = { :git => "https://github.com/halidcisse/MyPodSpecs.git", :branch => "master",
+                   :tag => s.version.to_s }
 s.source_files  = 'Octokit/*.{h,m}'
 s.requires_arc  = true
 end
