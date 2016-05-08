@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-s.name          = 'Octokit'
+s.name          = 'OctoKit'
 s. authors =‘Halid Cisse’
 s. license =‘MIT’
 s. homepage=‘https://github.com/HalidCisse/Podspecs’
